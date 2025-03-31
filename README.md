@@ -44,3 +44,9 @@ This project is an Android application designed to demonstrate a multi-timezone 
 - Handles system overlay permission requests.
 - Implements a user-friendly permission flow.
 - Ensures proper functionality of floating windows.
+
+## Download
+
+Download the latest version of the app here:
+
+- **APK v1.0.0**: [Download Now](https://github.com/Bobby-Lai/Clock/releases/download/v1.0.0/app-release.apk)
