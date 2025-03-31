@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ViewSonic Android Assignment</string>
+    <string name="times">時鐘</string>
+    <string name="setting">設定</string>
+    <string name="add">新增</string>
+    <string name="edit">編輯</string>
+    <string name="delete">刪除</string>
+    <string name="refresh_rate">刷新頻率</string>
+    <string name="min">分鐘</string>
+    <string name="no_data">無資料</string>
+    <string name="language">語言</string>
+    <string name="floating_window_confirm">您是否想要將此數位時鐘顯示為浮動視窗？</string>
+    <string name="cancel">取消</string>
+    <string name="ok">確定</string>
+    <string name="permission_required">需要權限</string>
+    <string name="overlay_permission_message">若要在浮動視窗中顯示時鐘，您需要允許此應用程式顯示在其他應用程式上層。</string>
+    <string name="grant_permission">授予權限</string>
+    <string name="floating_clock">浮動時鐘</string>
+</resources>
