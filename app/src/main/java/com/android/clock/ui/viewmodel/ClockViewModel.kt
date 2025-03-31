@@ -2,7 +2,6 @@ package com.android.clock.ui.viewmodel
 
 import android.content.Context
 import android.util.Log
-import android.widget.Toast
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
@@ -17,7 +16,6 @@ import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import java.util.Calendar
-import java.util.concurrent.TimeUnit
 import java.time.LocalDateTime
 import java.time.ZoneId
 
@@ -31,7 +29,7 @@ class ClockViewModel(
     private val appContext: Context
 ) : ViewModel() {
 
-    public val TIME_STANDARD = 1000L
+    public val TIME_STANDARD = 60000L
 
     // List of all clocks
     private val _clocks = MutableStateFlow<List<ClockData>>(emptyList())
